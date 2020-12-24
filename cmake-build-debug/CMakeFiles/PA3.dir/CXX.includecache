@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tyrre/CLionProjects/PA3/lex.h
+string
+-
+iostream
+-
+
+C:/Users/tyrre/CLionProjects/PA3/main.cpp
+iostream
+-
+fstream
+-
+parse.h
+C:/Users/tyrre/CLionProjects/PA3/parse.h
+map
+-
+
+C:/Users/tyrre/CLionProjects/PA3/parse.h
+lex.h
+C:/Users/tyrre/CLionProjects/PA3/lex.h
+iostream
+-
+map
+-
+
